@@ -7,11 +7,13 @@ __Create a Gaussian distribution of particles each with a bin index:__</br>
 
 __Run CPU benchmark using CFFI:__</br>
 `python c_cpu.py`</br>
-CPU: AMD Ryzen Threadripper 2970WX 24-Core Processor
+CPU: AMD Ryzen Threadripper 2970WX 24-Core Processor</br>
+cffi v1.15.0
 
 __Run GPU benchmark using CuPy:__</br>
 `python c_gpu.py`</br>
-GPU: NVIDIA TITAN V
+GPU: NVIDIA TITAN V</br>
+cupy-cuda101 v9.6.0
 
 - these save a .npz file with the slice moments in `/outputs`
 
