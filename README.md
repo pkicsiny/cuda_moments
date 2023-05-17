@@ -1,7 +1,7 @@
 # cuda_moments
 Computation of binned statistical moments with CUDA, CuPy and CFFI.
 
-Create a Gaussian distribution of particles each with a bin index:
+Create a Gaussian distribution of particles each with a bin index:</br>
 `python create_distribution.py`
 - this saves a .npz file to `/inputs`
 
