@@ -1,5 +1,5 @@
 # cuda_moments
-Computation of binned statistical moments with CUDA, CuPy and CFFI.
+Computation of binned statistical moments with [CUDA](https://developer.nvidia.com/cuda-toolkit), [CuPy](https://cupy.dev/) and [CFFI](https://cffi.readthedocs.io/en/latest/).
 
 __Create a Gaussian distribution of particles each with a bin index:__</br>
 `python create_distribution.py`
