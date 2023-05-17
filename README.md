@@ -17,3 +17,7 @@ GPU: NVIDIA TITAN V
 
 Compare output moments (gpu_val-cpu_val):</br>
 `python compare_moments.py`
+
+<p align="center">
+<img src="https://github.com/pkicsiny/cuda_moments/blob/master/images/gpu_speedup.png" width="600">
+</p>
