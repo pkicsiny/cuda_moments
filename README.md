@@ -1,21 +1,21 @@
 # cuda_moments
 Computation of binned statistical moments with CUDA, CuPy and CFFI.
 
-Create a Gaussian distribution of particles each with a bin index:</br>
+__Create a Gaussian distribution of particles each with a bin index:__</br>
 `python create_distribution.py`
 - this saves a .npz file to `/inputs`
 
-Run CPU benchmark using CFFI:</br>
+__Run CPU benchmark using CFFI:__</br>
 `python c_cpu.py`</br>
 CPU: AMD Ryzen Threadripper 2970WX 24-Core Processor
 
-Run GPU benchmark using CuPy:</br>
+__Run GPU benchmark using CuPy:__</br>
 `python c_gpu.py`</br>
 GPU: NVIDIA TITAN V
 
 - these save a .npz file with the slice moments in `/outputs`
 
-Compare output moments (gpu_val-cpu_val):</br>
+__Compare output moments:__</br>
 `python compare_moments.py`
 
 The plot below shows the speedup achieved on the GPU compared to the single CPU execution, as a function of the block size and the number of particles in the distribution.
