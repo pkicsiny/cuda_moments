@@ -20,7 +20,7 @@ cupy-cuda101 v9.6.0
 __Compare output moments:__</br>
 `python compare_moments.py`
 
-The plot below shows the speedup achieved on the GPU compared to the single CPU execution, as a function of the block size and the number of particles in the distribution.
+The plot below shows the speedup achieved on the GPU compared to the single CPU execution, as a function of the block size and the number of particles in the distribution, for 100 bins.
 <p align="center">
 <img src="https://github.com/pkicsiny/cuda_moments/blob/master/images/gpu_speedup.png" width="600">
 </p>
